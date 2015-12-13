@@ -1,0 +1,1 @@
+var name="Derek",sayMyName=function(){alert("Derek")};
