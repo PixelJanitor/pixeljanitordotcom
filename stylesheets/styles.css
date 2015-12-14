@@ -454,6 +454,8 @@ body {
   font-size: 36px;
   margin: 0;
   z-index: 2;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
   -webkit-animation: title-fade 2s;
   animation: title-fade 2s; }
 
