@@ -493,6 +493,9 @@ body {
   transform-origin: 50%;
   -webkit-animation: blossom 2s;
   animation: blossom 2s; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .pixel-flower-petal {
+      opacity: .05; } }
 
 @-webkit-keyframes blossom {
   0% {
