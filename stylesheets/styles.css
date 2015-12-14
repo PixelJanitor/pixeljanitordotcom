@@ -446,9 +446,10 @@ body {
 .logo {
   position: absolute;
   top: 50%;
-  left: 50%;
-  -webkit-transform: translate3d(-50%, -50%, 0);
-  transform: translate3d(-50%, -50%, 0);
+  width: 100%;
+  text-align: center;
+  -webkit-transform: translate3d(0%, -50%, 0);
+  transform: translate3d(0%, -50%, 0);
   text-transform: uppercase;
   letter-spacing: 20px;
   font-size: 36px;
@@ -462,14 +463,14 @@ body {
 @-webkit-keyframes title-fade {
   0% {
     opacity: 0;
-    -webkit-transform: translate3d(-50%, -100%, 0);
-    transform: translate3d(-50%, -100%, 0); } }
+    -webkit-transform: translate3d(0%, -100%, 0);
+    transform: translate3d(0%, -100%, 0); } }
 
 @keyframes title-fade {
   0% {
     opacity: 0;
-    -webkit-transform: translate3d(-50%, -100%, 0);
-    transform: translate3d(-50%, -100%, 0); } }
+    -webkit-transform: translate3d(0%, -100%, 0);
+    transform: translate3d(0%, -100%, 0); } }
 
 .pixel-flower {
   position: fixed;
