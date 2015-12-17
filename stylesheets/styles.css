@@ -526,19 +526,17 @@ body {
   z-index: 1; }
 
 .pixel-flower-petal {
-  -webkit-animation: blossom 2000ms;
-  animation: blossom 2000ms;
-  -webkit-transform: translate3d(-50%, 0, 0) rotate(45deg);
-  transform: translate3d(-50%, 0, 0) rotate(45deg);
-  -webkit-transform-origin: 50%;
-  transform-origin: 50%;
+  height: 1000px;
+  width: 1000px;
   position: absolute;
   top: 100%;
   left: 50%;
-  height: 1000px;
-  width: 1000px;
   background-color: #515151;
-  opacity: .1; }
+  opacity: .1;
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transform: translate3d(-50%, 0, 0) rotate(45deg);
+  transform: translate3d(-50%, 0, 0) rotate(45deg); }
 
 @-webkit-keyframes blossom {
   0% {
