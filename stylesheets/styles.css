@@ -517,10 +517,7 @@ body {
       font-size: 18px; } }
 
 .pixel-flower {
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  position: absolute;
-  width: 800px;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
@@ -542,6 +539,8 @@ body {
   transform-origin: 50%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  -webkit-transform: translate3d(-50%, 0, 0) rotate(45deg);
+  transform: translate3d(-50%, 0, 0) rotate(45deg);
   -webkit-animation: blossom 2000ms;
   animation: blossom 2000ms; }
 
