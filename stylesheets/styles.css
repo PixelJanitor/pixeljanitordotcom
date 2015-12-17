@@ -492,6 +492,8 @@ body {
   z-index: 2;
   line-height: 1;
   padding-left: 16px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   -webkit-animation: title-fade 2000ms;
   animation: title-fade 2000ms; }
 
