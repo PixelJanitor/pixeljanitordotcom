@@ -519,7 +519,8 @@ body {
 .pixel-flower {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  position: fixed;
+  position: absolute;
+  width: 800px;
   bottom: 0;
   left: 0;
   right: 0;
