@@ -519,7 +519,10 @@ body {
 .pixel-flower {
   position: fixed;
   bottom: 0;
-  left: 0;
+  left: 50%;
+  width: 100%;
+  -webkit-transform: translate3d(-50%, 0, 0);
+  transform: translate3d(-50%, 0, 0);
   right: 0;
   height: 500px;
   overflow: hidden;
