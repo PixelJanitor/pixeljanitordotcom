@@ -523,7 +523,9 @@ body {
   right: 0;
   height: 500px;
   overflow: hidden;
-  z-index: 1; }
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
 
 .pixel-flower-petal {
   height: 1000px;
