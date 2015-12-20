@@ -497,7 +497,8 @@ body {
   justify-content: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  height: 100vh; }
 
 .logo {
   text-align: center;
