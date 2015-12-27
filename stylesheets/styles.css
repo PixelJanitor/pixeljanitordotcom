@@ -617,8 +617,34 @@ label, input, textarea {
     transform: translate3d(-50%, 0, 0) rotate(80deg); }
 
 .portfolio {
-  background: #515151;
-  height: 20px; }
+  background: #515151; }
+  .portfolio img {
+    max-width: 100%; }
+  .portfolio a {
+    display: block;
+    width: 100%; }
+
+.shots {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0;
+  list-style-type: none; }
+  .shots::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.shots-shot {
+  float: left;
+  margin-bottom: -5px;
+  width: 100%; }
+  @media screen and (min-width: 400px) {
+    .shots-shot {
+      width: 50%; } }
+  @media screen and (min-width: 800px) {
+    .shots-shot {
+      width: 33.333333333%; } }
 
 .contact {
   position: absolute;
