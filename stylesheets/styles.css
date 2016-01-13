@@ -619,7 +619,8 @@ label, input, textarea {
 .portfolio {
   background: #515151; }
   .portfolio img {
-    max-width: 100%; }
+    max-width: 100%;
+    width: 100%; }
   .portfolio a {
     display: block;
     width: 100%; }
